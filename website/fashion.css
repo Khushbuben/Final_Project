@@ -1,6 +1,17 @@
 body{
-	background-image:url("./images/family.jpg");
+	background-image:url("./images/thikthak.jpg");
+	
 	height:100%;
 	background-repeat:no-repeat;
 	background-size:cover;
+	
+}
+.p{
+	font-family:"Times New Roman", Times, serif;
+	color:black;
+	font-size:30px;
+}
+.marquee{
+	font-size:25px;
+	color:blue;
 }
