@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the top navigation bar */
+.img{
+	float:left;
+	height:100px;
+	width:20%;
+}	
+
+.topnav {
+    
+    background-color: white;
+	height:100px;
+	width:auto;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: right;
+    display: block;
+    color: pink;
+    text-align: center;
+	font-size:18px;
+    padding: 14px 16px;
+    text-decoration: none;
+	width:auto;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color:blue ;
+    color: red;
+}
+/*    Dropdown menu   */
+.dropdown{
+	position:relative;
+	display:inline-block;
+	float:right;
+	
+}
+.but1{
+	background-color:white;
+	color:pink;
+	text-align: center;
+	font-size:18px;
+    padding: 14px 16px;
+    text-decoration: none;
+	border:none;
+	
+}
+.dropdown-content{
+		display:none;
+		position:absolute;
+		background-color:blue;
+	min-width:80px;
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index:1;
+	padding:12px 16px;
+}
+
+
+.dropdown:hover .dropdown-content{
+		display:block;
+}
+
+/* Style the content */
+.content {
+    background-color: white;
+    padding: 10px;
+	width:100%;
+    height: 700px; /* Should be removed. Only for demonstration */
+}
+/*     video    */
+.video{	
+	height:700px;
+	width:100%;
+	object-fit: fill;
+}
+/*    gallary   */
+.gallary{
+	height:auto;
+	width:100%;
+	background-color:white;
+	padding:10px;
+	
+}
+.gallary h2{
+	text-align:center;
+	width:100%;
+	color:purple;
+	font-size:32px;
+	
+}
+.sub_gallary{
+	height:33%;
+	width:22.3%;
+	background-color:white;
+	display: inline-block;
+	margin:15px;
+}
+.sub_gallary img{
+	height:100%;
+	width:100%;	
+}
+.marquee_parents {
+	
+	margin-top:20px;
+}
+/* Style the footer */
+.footer {
+    background-color: black;
+    padding: 10px;
+	height:350px;
+}
+.footer-h1{
+	color:blue;
+	font-size:16px;
+	text-align:center;
+}
+
+.footer_menu a{
+	color:white;
+	text-decoration: none;
+	font-size:24px;
+}
+.footer_menu a:hover{
+	color:red;
+	text-decoration: none;
+
+}
+.footer-div1{
+	background-color:black;
+	float:right;
+	height:100px;
+	width:20%;
+	display: inline-block;
+	padding-left:5%;
+	margin-right:5%;
+}	
+.social{
+	
+}
+.social img{
+	height:50px;
+	width:50px;
+	padding:3px;
+}
+.social img:hover{
+	border: 1px solid red;
+}
+
+/*    aboutus   */
+.body{
+	background-image:url("./images/back.jpg");
+	width:100%;
+	height:100%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+.p{
+	font-family:"Times New Roman", Times, serif;
+	color:black;
+	font-size:30px;
+}
+.marquee{
+	font-size:25px;
+	color:blue;
+}
+/*   registration  */
+
+.bodyR{
+	background-color: rgba(201, 89, 204, 0.3);
+	width:100%;
+	height:100%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	color:blue;
+	text-shadow: 2px 2px #FF0000;
+	font-size:20px;
+	
+}
+.button{
+	color:blue;
+	text-shadow: 2px 2px #FF0000;
+	font-size:20px;
+}
