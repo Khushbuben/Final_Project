@@ -12,7 +12,7 @@ body {
 .img{
 	float:left;
 	height:100px;
-	width:200px;
+	width:20%;
 }	
 
 .topnav {
@@ -30,15 +30,6 @@ body {
     padding: 14px 16px;
     text-decoration: none;
 }
-.color{
-	color:orange;
-	float: right;
-    display: block;
-    text-align: center;
-	font-size:18px;
-    padding: 14px 16px;
-    text-decoration: none;
-}
 
 /* Change color on hover */
 .topnav a:hover {
@@ -50,11 +41,80 @@ body {
 .content {
     background-color: #ddd;
     padding: 10px;
-    height: 200px; /* Should be removed. Only for demonstration */
+	width:100%;
+    height: 500px; /* Should be removed. Only for demonstration */
+}
+/*     video    */
+.video{	
+	height:500px;
+	width:100%;
+}
+/*    gallary   */
+.gallary{
+	height:580px;
+	width:100%;
+	
+	padding:10px;
+	
+}
+.gallary h2{
+	text-align:center;
+	width:100%;
+	color:purple;
+	font-size:32px;
+	
+}
+.sub_gallary{
+	height:33%;
+	width:22.3%;
+	background-color:yellow;
+	display: inline-block;
+	margin:15px;
+}
+.sub_gallary img{
+	height:auto;
+	width:100%;	
 }
 
 /* Style the footer */
 .footer {
-    background-color: #f1f1f1;
+    background-color: black;
     padding: 10px;
+}
+
+/*    aboutus   */
+.body{
+	background-image:url("./images/back.jpg");
+	width:100%;
+	height:100%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+.p{
+	font-family:"Times New Roman", Times, serif;
+	color:black;
+	font-size:30px;
+}
+.marquee{
+	font-size:25px;
+	color:blue;
+}
+/*   registration  */
+
+.bodyR{
+	background-color: rgba(201, 89, 204, 0.3);
+	width:100%;
+	height:100%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	color:blue;
+	text-shadow: 2px 2px #FF0000;
+	font-size:20px;
+	
+}
+.button{
+	color:blue;
+	text-shadow: 2px 2px #FF0000;
+	font-size:20px;
 }
