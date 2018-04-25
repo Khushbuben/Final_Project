@@ -2,6 +2,7 @@
 <html>
 <head><title>Login</title>
 <link href="css.css" rel="stylesheet" type="text/css">
+<script language="javascript" type="text/javascript" src="script.js"></script>
 </head>
 <body>
 <div class="topnav">
@@ -22,13 +23,13 @@
  
  </div>
 <center>
-<form class="bodyR">
+<form class="bodyR" name="myform">
 <center><h1>Log In</h1></center>
   User Name:</br>
   <input type="text" name="username"></br>
   Password:</br>
   <input type="password" name="password"></br></br>
-  <button class="button">Login</button></br></br>
+  <button class="button" onclick="return validateform()">Login</button></br></br>
   
   <a href="registration.html"> Creat Account</a></br></br>
 </form>
